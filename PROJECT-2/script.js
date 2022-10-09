@@ -24,11 +24,6 @@ function calculateBMI() {
     measure = display(bmi, 3);
   }
 
-  console.log(bmi);
-  console.log(measure);
-  console.log(height);
-  console.log(typeof weight);
-  console.log(weight);
   let result =document.getElementById("hasil")
 
   if (height=== "" || isNaN(height)) {
