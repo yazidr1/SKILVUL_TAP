@@ -1,0 +1,61 @@
+/* Poppin font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --body-font: "Poppins", sans-serif;
+  --normal-font-size: 1rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --main-color: mediumslateblue;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin-top: 0;
+}
+
+body,
+button,
+input {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+span{
+    color: var(--main-color);
+}
+#container {
+  /* display: block; */
+  margin: 25% 25%;
+  width: 50%;
+  /* text-align: center; */
+  border-radius: 2rem;
+  background-color: #f6f6f6;
+  padding: 2rem;
+  /* position: relative; */
+}
+
+#weight, #height {
+  font-size: var(--h2-font-size);
+  width: 100%;
+  display: block;
+}
+
+.btn {
+  margin: 2rem auto;
+  background-color: var(--main-color);
+  border-radius: 0.5rem;
+  /* margin-left: ; */
+  font-size: var(--h2-font-size);
+  padding: 0.5rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+.text-center {
+  /* margin: auto; */
+  text-align: center;
+  /* justify-content: center; */
+}
